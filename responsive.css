@@ -1,0 +1,68 @@
+@media screen and (min-width:800px) and (max-width:1280px) {
+    .circle {
+        margin-left: 7vw !important;
+    }
+}
+
+@media screen and (min-width:552px) {
+    .circle {
+        margin-left: 5vw !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1194px) {
+    body {
+        background-size: initial !important;
+    }
+
+    .divRight {
+        width: 100% !important;
+    }
+
+    .divLeft {
+        display: none !important;
+    }
+
+    .circle {
+        margin-left: 15vw !important;
+    }
+
+    .formDiv {
+        margin-top: 40% !important;
+    }
+     
+    .circle {
+        height: 12vh !important;
+        width: 12vh !important;
+    }
+    .button-17 {
+        font-size: 22px !important;
+        height: 50px !important;
+        width: 70% !important;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:956px) {
+    body {
+        background-size: initial !important;
+    }
+
+    .divRight {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .circle {
+        margin-left: 20vw !important;
+        height: 12vh !important;
+        width: 12vh !important;
+    }
+
+    .divLeft {
+        display: none !important;
+    }
+
+    .button-17 {
+        width: 94% !important;
+    }
+}

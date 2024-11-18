@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        body {
+            margin: 0;
+            background-image: url(Back.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            filter: drop-shadow(2px 4px 6px black);
+        }
+
+        .divMain {
+            height: 50vh;
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 25vh;
+        }
+
+        .divLeft {
+            height: 50vh;
+            width: 70%;
+            float: left;
+            background-image: url(Back.jpg);
+            background-size: cover;
+
+        }
+
+        .divRight {
+            height: 50vh;
+            width: 30%;
+            background-color: rgb(148 127 106 / 15%);
+            float: left;
+        }
+
+        .formDiv {
+            height: 25vh;
+            width: 80%;
+            margin-left: 15%;
+            margin-top: 43%;
+        }
+
+        input[type=text],
+        input[type=password] {
+            font-size: 2vh;
+            color: #000000d4;
+            width: 91.5%;
+            background-color: #ffffffa8;
+            border: none;
+            border-bottom: solid;
+            padding: -8vh;
+            border-bottom-color: white;
+            border-bottom-width: 0.4vh;
+            margin-bottom: 2vh;
+            font-weight: bolder;
+        }
+
+
+        .circle {
+            height: 15vh;
+            width: 15vh;
+            background-image: url(1.png);
+            background-size: cover;
+            border-radius: 5%;
+            margin-left: 14vh;
+            margin-top: 3vh;
+            margin-bottom: -6vh;
+        }
+
+        .tagline {
+            font-size: 2.4vh;
+            font-weight: 500;
+            font-family: sans-serif;
+            margin-left: 5vh;
+            margin-top: -7.9vh;
+            color: #ffffff;
+
+        }
+
+        .logo {
+            height: 25vh;
+            width: 68vh;
+            background-image: url(logo.png);
+            background-size: cover;
+            margin-left: -4vh;
+            margin-top: 11vh;
+        }
+
+
+        .greet {
+            font-size: 3.5vh;
+            margin-left: 14vh;
+            margin-top: 7.1vh;
+        }
+
+        .button-17 {
+            align-items: center;
+            appearance: none;
+            background-color: #ffffffb8;
+            border-radius: 24px;
+            border-style: outset;
+            box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+            box-sizing: border-box;
+            color: #3c4043;
+            cursor: pointer;
+            display: inline-flex;
+            fill: currentcolor;
+            font-family: "Google Sans", Roboto, Arial, sans-serif;
+            font-size: 21px;
+            font-weight: bolder;
+            height: 36px;
+            justify-content: center;
+            letter-spacing: .25px;
+            line-height: normal;
+            max-width: 88%;
+            overflow: visible;
+            padding: 2px 24px;
+            position: relative;
+            text-align: center;
+            text-transform: none;
+            transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 17vw;
+            will-change: transform, opacity;
+            z-index: 0;
+            margin-left: 0.5vw;
+            margin-top: 2vh;
+        }
+
+        input:not([type="image"i], [type="range"i], [type="checkbox"i], [type="radio"i]) {
+            overflow-clip-margin: 0px !important;
+            overflow: clip !important;
+        }
+
+        input[type="submit"i] {
+            appearance: auto;
+            user-select: none;
+            align-items: flex-start;
+            text-align: center;
+            cursor: default;
+            box-sizing: border-box;
+            background-color: buttonface;
+            color: buttontext;
+            white-space: pre;
+            padding-block: 1px;
+            padding-inline: 6px;
+            border-width: 2px;
+            border-style: outset;
+            border-color: buttonborder;
+            border-image: initial;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="divMain">
+        <div class="divLeft">
+            <div class="logo"></div>
+            <div class="tagline">Travel. Explore. Discover</div>
+        </div>
+        <div class="divRight">
+            <div class="circle"></div>
+            <div class="greet"></div>
+            <div class="formDiv">
+                <input type="text" name="mailid" id="mailid">
+                <input type="password" name="password" id="password">
+                <input type="submit" value="Login" id="submit" class="button-17">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
